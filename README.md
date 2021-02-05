@@ -12,9 +12,8 @@ PHP SDK для использования OCH API
 ```php
 <?php
 
-const API_KEY = 'eF3o****MpM9';
-
-$ochApi = new Och\Api\OchApi(API_KEY);
+$apiKey = ''; // Ваш API ключ
+$OchApi = new OchApi($apiKey);
 
 ?>
 ```
